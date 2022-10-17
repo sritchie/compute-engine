@@ -50,13 +50,13 @@ toc: true
 
 <code>["D", _f_, _x_]</code>
 
-Evaluate to the partial derivative \\( \frac{\partialD f}{\partialD x} \\) or \\( f^{\prime}(x) \\)
+Evaluate to the partial derivative \\( \frac{\partial f}{\partial x} \\) or \\( f^{\prime}(x) \\)
 
 ----
 
 <code>["D", _f_, ["Tuple", _x_, _n_]]</code>
 
-Evaluate to the multiple derivative \\( \frac{\partialD^n f}{\partialD x^n} \\) (Leibniz notation) or \\( f^{(n)}(x) \\) (Lagrange notation)
+Evaluate to the multiple derivative \\( \frac{\partial^n f}{\partial x^n} \\) (Leibniz notation) or \\( f^{(n)}(x) \\) (Lagrange notation)
 
 
 {% enddef %}
